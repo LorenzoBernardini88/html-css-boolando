@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    margin: 0px;
 }
 
 .container{
@@ -53,6 +54,18 @@
     top: 20px;
     text-align: center;
     line-height: 30px;
+}
+
+.info{
+    margin-top: 10px;
+}
+
+.info span p {
+    font-size: 10px;
+}
+
+.img1{
+    
 }
 
 
