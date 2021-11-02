@@ -1,0 +1,25 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.conteiner{
+    width: 80%;
+    margin: auto;
+}
+
+.row::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+
+.col img{
+    float: left;
+    object-fit: cover;
+    width: 30%;
+    height: 200px;
+}
+
+
